@@ -35,8 +35,8 @@ if (data.courses == "off") {
 }//fin if
 
 if (data.courses == "pushliste"){
- ClaraIA.reco= "envoie un sms à laurent disant "+jsonStr
- ClaraIARun(['push','data.push="envoie un sms à laurent disant"'])
+ ClaraIA.reco= "envoie un sms à Wendy disant "+jsonStr
+ ClaraIARun(['push','data.push="envoie un sms à Wendy disant"'])
 return 
 }//fin if
 
